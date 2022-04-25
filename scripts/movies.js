@@ -66,6 +66,7 @@ async function SearchMovies(){
             button.addEventListener("click",function(){
 
                 addToCart(el)
+                window.location.href = "checkout.html"
             })
 
             
